@@ -2,6 +2,8 @@
 
 **This is my repo for learning the Flask framework.**
 
+Creating a basic blog application called Flaskr. Users will be able to register, log in, create posts, and edit or delete their own posts.
+
 ## Documentation
 
 [Flask Tutorial Documentation](https://flask.palletsprojects.com/en/stable/tutorial/)
