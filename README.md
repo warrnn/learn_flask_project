@@ -5,3 +5,9 @@
 ## Documentation
 
 [Flask Tutorial Documentation](https://flask.palletsprojects.com/en/stable/tutorial/)
+
+# Run The Application
+
+```bash
+flask --app flaskr run --debug
+```
