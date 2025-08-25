@@ -26,4 +26,9 @@ def create_app(test_config=None):
     from . import db
     db.init_app(app)
     
+    from . import auth
+    # Import and register the blueprint from the factory using app.register_blueprint(). 
+    # Place the new code at the end of the factory function before returning the app.
+    app.register_blueprint(auth.bp)
+    
     return app
