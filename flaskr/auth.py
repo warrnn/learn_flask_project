@@ -39,6 +39,7 @@ def register():
                     'INSERT INTO user (username, password) VALUES (?, ?)',
                     (username, generate_password_hash(password))
                 )
+                db.commit()
             # An sqlite3.IntegrityError will occur if the username already exists, which should be shown to the user as another validation error.
             except db.IntegrityError:
                 error = f"User {username} is already registered."
