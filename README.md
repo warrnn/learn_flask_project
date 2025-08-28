@@ -19,3 +19,21 @@ flask --app flaskr run --debug
 ```bash
 flask --app flaskr init-db
 ```
+
+## Running the Tests
+
+```bash
+pytest
+```
+
+```bash
+coverage run -m pytest
+```
+
+```bash
+coverage report
+```
+
+```bash
+coverage html
+```
